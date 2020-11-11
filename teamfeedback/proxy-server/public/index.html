@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8"/>
     <title>HumbleBundle</title>
+    <link rel="stylesheet" type="text/css" href="./app.css">
   </head>
-  <body>
+  <body id="freddie-proxy">
     <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
     <div id="navbar"></div>
@@ -17,16 +18,17 @@
     <div id="charity"></div>
     <div id="purchase"></div>
     <div id="system-requirements"></div>
-    <!-- <script src="http://localhost:3102"></script> Navbar (secondary) -->
-    <!-- <script src="http://localhost:3663/bundle.js"></script> Descriptions (primary) -->
-    <!-- <script src="http://localhost:3101/static/js/bundle.js"></script> Tiers (primary) -->
+    <script src="https://fec-navbar-ms.s3-us-west-2.amazonaws.com/bundle.js"></script> <!-- Navbar (secondary) -->
+    <script src="https://mg-fec-desc-bundle.s3-us-west-1.amazonaws.com/bundle.js"></script> <!-- Descriptions (primary) -->
+    <script src="https://fec-tiers.s3-us-west-2.amazonaws.com/bundle.js"></script> <!-- Tiers (primary) -->
     <!-- <script src="http://localhost:3200/bundle.js"></script> Individual Items (primary) -->
     <!-- <script src="http://localhost:3030"></script> Reviews (secondary) -->
-    <!-- <script src="http://localhost:3031/bundle.js"></script> Bonuses (primary) -->
+    <!-- <script src="https://fec-bonus-assets.s3-us-west-1.amazonaws.com/bundle.js"></script> Bonuses (primary) -->
     <!-- <script src="http://localhost:3876"></script> Contributors (secondary) -->
     <!-- <script src="http://localhost:3987" ></script> Charity (primary) -->
     <!-- <script src="http://localhost:3201"></script> Purchase (secondary) -->
-    <script src="http://localhost:3201/dist/bundle/bundle.js"></script> System Requirements (secondary)
+    <script src="https://fec-systems.s3-us-west-2.amazonaws.com/bundle.js"></script> <!-- System Requirements (secondary) -->
   </body>
   <footer></footer>
 </html>
+
